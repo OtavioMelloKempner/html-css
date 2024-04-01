@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: rgb(248, 181, 250);
+        }
+    </style>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+<source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+<img src="imagens/foto-g.png" alt="flexivel">
+
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p><strong><code>Vamos aprender, como colocar audio em HTML5</code></strong></p>
+    <audio src="midia/happy-mistake.mp3" controls autoplay></audio>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mp3">
+        <source src="midia/guanacast-33." type="audio/ogg">
+        <source src="midia/happy-mistake.mp3" type="audio/wav">
+
+            <p>Se infelizmente você não estiver conseguindo dar play no audio,você também pode fazer o download direto pelo link abaixo.
+            <a href="midia/guanacast-33.mp3">Clique aqui para abaixar o arquivo mp3</a></p>
+    
+    </audio>
+</body>
+</html>

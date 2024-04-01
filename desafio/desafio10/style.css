@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@font-face {
+    font-family:android ;
+    src: url(fontes/ethnocentric\ rg.otf);
+    @font-face {
+        font-family: idroid;
+        src: url(fontes/idroid.otf);
+    }
+}
+body{
+    margin: 0;
+    background-color: rgb(132, 225, 173);
+}
+header{
+    background-image: linear-gradient(to top, rgb(25, 82, 25), lightgreen);
+    text-align: center;
+    height: 125px;
+    padding: 10px;
+    
+}
+#menu{
+    color: white;
+    text-align: left;
+    text-align:start;
+    height: 140px;
+    padding: 3px;
+}
+#menu > a{
+    padding: 3px;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+main > h1{
+    font-family: android;
+    color: rgb(57, 114, 83);
+   
+}
+footer{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+    border: 0px solid green;
+    border-color: lightgreen;
+}
+#final{
+    background-color: rgba(0, 0, 0, 0.575);
+    padding: 10px;
+    margin: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+}
+mark{
+    background-color: white;
+    color: green;
+}
+iframe{
+    padding: 10px;
+    background-color: green;
+    border: 10px;
+    width: 100%;
+    
+}
+#ultima{
+    padding-left: 30%;
+}
+#menu>:hover{
+    background-color: green;
+    box-shadow: 1px solid rgba(0, 0, 0, 0.466);
+    text-shadow: 1px solid rgba(0, 0, 0, 0.418);
+}
+h2{
+ background-image: linear-gradient(to right, rgb(58, 204, 58), white);
+}
+section{
+    background-color: rgba(128, 128, 128, 0.479);
+}
+nav{
+    background-color: rgb(25, 82, 25);
+    
+}

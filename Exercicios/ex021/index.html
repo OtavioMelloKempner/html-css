@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgrey;
+            margin: 0;
+            color: white;
+            text-align: justify;
+        }
+        header{
+            background-color: white;
+            margin: 1;
+            color: black;
+            padding: 10px;
+            font-weight: bold;
+            margin: 10px;
+        }
+        main{
+            background-color: darkgray;
+            color: rgb(0, 0, 0);
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+
+        }
+        section > article{
+            background-color: rgb(150, 146, 146);
+            margin: 5px;
+            padding: 5px;
+        }
+        main > section{
+            background-color: gray;
+            background-color: rgb(255, 251, 251);
+        }
+        main > h2{
+            background-color:rgb(136, 135, 135);
+            text-align: center;
+            color: white;
+        }
+        article > aside{
+            background-color:rgb(68, 68, 68) ;
+            padding: 5px;
+            margin: 10px;
+            color: rgb(255, 251, 251);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            margin: 0px;
+            padding: 5px;
+        }
+       #assunto1{
+        background-color:rgb(136, 135, 135) ;
+       }
+       
+       nav{
+        background-color: lightslategray;
+        color: white;
+        padding:3px;
+        box-shadow: 5px 3px 7px 1px black;
+
+       }
+       nav > a{
+        color: white;
+        padding: 3px;
+       }
+       #titulo1{
+        text-align: center;
+       }
+       div#bola{
+        background-color: white;
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        color: red;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="titulo1">Meu sites preferidos</h1>
+        <nav>
+             <a href="#">Link</a>
+             <a href="#">Link</a>
+             <a href="#">Link</a>
+             <a href="#">Link</a> 
+
+        </nav>
+        </header>
+        <main>
+            <h2>Sobre os sites</h2>
+            <section>
+                <article>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic temporibus fugit, mollitia impedit ab vitae iusto eius illum. Veritatis unde mollitia, debitis alias animi quidem reprehenderit minus exercitationem. Alias, omnis.</p>
+            
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt consectetur velit tempore, omnis ipsa obcaecati debitis optio odio animi asperiores corrupti ipsum, non illo adipisci aliquid inventore temporibus ea laborum.
+                    
+                    <aside>Escrito por Otavio Mello Kempner</aside>
+                </article>
+            </section>
+            <br>
+            <footer>Direito totalmente reservados ao Autor: Otavio Mello Kempner</footer>
+        </main>
+ <div id="bola">Pão</div>
+</body>
+</html>
