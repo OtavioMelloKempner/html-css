@@ -4,4 +4,4 @@
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios
  Obrigado pela atenção!
 
-<a href="https://otaviomellokempner.github.io/html-css/desafio/origindesafio.10/index.html">Executar o desafio10</a>
+<a href="https://otaviomellokempner.github.io/html-css/exercicios/ex010/index.html">Executar o ex010</a>
