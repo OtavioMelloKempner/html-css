@@ -6,37 +6,58 @@
     margin: 0;
 }
 
+a.externo::after{
+    content: "\00A0\1F517";
+}
 body{
-    background-color: #f22e3e83;
+    background-color: #ebe5c5;
 
 }
 
 header{
-    background-image: linear-gradient(to bottom, #F22E3E, #A61F2B);
+    background-image: linear-gradient(to bottom, #921b15, #fd382e);
     min-height: 120px;
+    box-shadow: 1px 1px 5px black;
+
 }
 header h1{
     color: white;
     text-align: center;
     font-family:"Bebas Neue", sans-serif;
-    padding-top: 20px;
+    padding-top: 40px;
+    font-size: 3em;
+    margin-bottom: 20px;
 }
 header p{
-    font-family:"Bebas Neue", sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     color: white;
+    font-size: 1.2em;
     margin-top: 20px;
+    margin: auto;
+    max-width: 600px;
+    padding-right: 50px;
+    padding-left: 50px;
     text-align: center;
-
 }
 nav{
-    background-color: #A61F2B;
+    background-color: #fd382e;
     padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.274)
+
 }
 nav a{
     color: white;
     text-decoration: none;
-    background-color: #A61F2B;
+    margin: 20px;
+
     
+    
+}
+nav a:hover{
+    text-decoration: underline;
+    background-color: #fc9696;
+    color: #F21313;
+    border-radius: 5px;
 }
 main{
     background-color: white;
@@ -47,6 +68,8 @@ main{
     border-bottom-right-radius: 10px;
     padding:20px;
     margin-bottom: 30px;
+    box-shadow: 0px  0px 10px rgba(0, 0, 0, 0.637); 
+
     
 }
 main h1{
@@ -79,16 +102,42 @@ main li{
     margin: 15px 0px;
     font-size: 1em;
     font-family: Arial, Helvetica, sans-serif;
-
+    
 
 }
+main a{
+    text-decoration: none;
+    color: #ad0101;
+    font-weight: bold;
+    background-color: #fa526073;
+    padding: 2px 4px;
+    border-radius: 5px;
+    
+}
+main a:hover{
+    text-decoration: underline;
+    color: #ff4353f8;
+
+}
+aside{
+    background-color: rgba(173, 173, 173, 0.363);
+    border-radius: 10px;
+    padding: 10px;
+}
 footer{
-    background-color: black;
+    background-color: rgba(255, 0, 0, 0.877);
     color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8em;
 }
 .secundario{
     margin: 15px 0px;
 
+}
+.diferente{
+    text-align: center;
+    font-size: 1.2em;
 }
 main img{
     width: 100%;
