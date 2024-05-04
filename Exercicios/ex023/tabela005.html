@@ -15,42 +15,85 @@
         td,tr,th{
             border: 1px solid black;
             padding: 10px;
+            color: white;
+            
         }
+         .azul{
+            background-color: blue;
+         }
+         .pink{
+            background-color: pink;
+         }
         
     </style>
 </head>
 <body>
     <h1>Testando ColGroup </h1>
     <table>
+        <colgroup>
+            <col class="azul">
+            <col class="pink">
+            <col class="azul">
+            <col class="pink">
+            
+        </colgroup>
         <caption>Cadastro</caption>
         <thead>
             <tr>
-                <th>Nome</th>
+                <th rowspan="2">Nome</th>
                 <th>Sexo</th>
                 <th>Idade</th>
-                <th>Profissão</th>
+                <th colspan="2">Profissão</th>
+               
             </tr>
+    
         </thead>
         <tbody>
             <tr>
                 <td>Ana Maria</td>
                 <td>F</td>
                 <td>22</td>
-                <td colspan="3">Médica</td>
-                <td>1</td>
+                <td colspan="2">Médica</td>
+                
             </tr>
+         
             <tr>
                 <td>Otavio</td>
                 <td>M</td>
                 <td>16</td>
-                <td>Estudante</td>
+                <td colspan="2">Estudante</td>
             </tr>
             <tr>
                 <td>Marcos</td>
                 <td>M</td>
                 <td>19</td>
-                <td>Desempregado</td>
+                <td colspan="2">Desempregado</td>
             </tr>
+            <tr>
+                <td>Otavio</td>
+                <td>M</td>
+                <td>16</td>
+                <td colspan="2">Estudante</td>
+            </tr>
+            <tr>
+                <td>Marcos</td>
+                <td>M</td>
+                <td>19</td>
+                <td colspan="2">Desempregado</td>
+            </tr>
+            <tr>
+                <td>Otavio</td>
+                <td>M</td>
+                <td>16</td>
+                <td colspan="2">Estudante</td>
+            </tr>
+            <tr>
+                <td>Marcos</td>
+                <td>M</td>
+                <td>19</td>
+                <td colspan="2">Desempregado</td>
+          
+            
         </tbody>
     </table>
 
