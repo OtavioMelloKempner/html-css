@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 400px;
+        }
+        td,tr,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Testando ColGroup </h1>
+    <table>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>22</td>
+                <td colspan="3">Médica</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Otavio</td>
+                <td>M</td>
+                <td>16</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Marcos</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Desempregado</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
