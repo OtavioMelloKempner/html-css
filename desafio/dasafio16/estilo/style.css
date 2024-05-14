@@ -25,7 +25,7 @@ main{
     transform: translate(-50%, -50%);
 
     background-color: blue;
-    background: url('../imagens/frame-iphone.png');
+    background: url('../imagens/frame-iphone.png') ;
     background-repeat: no-repeat;
     width: 311px;
     height: 627px;
@@ -39,5 +39,22 @@ iframe{
     transform: translate(-50%, -50%);
     width: 285px;
     height: 500px;
+}
+#redes-sociais{
+    background-color: blue;
+    background: url('../imagens/logo-home.jpg');
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+    align-content: flex-end;
+
+ 
+}
+div{
+    display: flex;
 }
 
