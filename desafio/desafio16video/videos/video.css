@@ -1,0 +1,16 @@
+
+body,html{
+ width: 470px;
+ height: 265px;
+}
+::-webkit-scrollbar{
+ width: 0px;
+ height: 0px;
+            
+}
+iframe{
+   width: 469px;
+   height: 262px;
+   padding: 0px;
+   margin: 0px;
+}
