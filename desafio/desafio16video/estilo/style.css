@@ -46,16 +46,24 @@ a img {
 }
 
 .container {
+    position: fixed; /* Fixa o container no canto da tela */
+    right: 10px; /* Distância do canto direito da tela */
+    top: 10px; /* Distância do topo da tela */
     display: flex;
-    flex-wrap: wrap; /* Isso permite que os itens se ajustem conforme necessário */
-    gap: 10px; /* Isso cria um espaço entre os itens */
-    justify-content: right;
+    flex-direction: column;
+    
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
-.item {
+.item:last-child {
+    margin-bottom: 20px;
+}
+.item{
     position: relative; /* Posição relativa para os itens individuais */
     width: 50px; /* Largura do item para corresponder à largura da imagem */
     height: 50px; /* Altura do item para corresponder à altura da imagem */
+    margin-bottom: 20px;
 }
 
 .item img {
