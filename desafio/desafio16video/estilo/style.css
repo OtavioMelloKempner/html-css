@@ -19,6 +19,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 section#celular{
     background: url('../imagens/frame-iphone1.png') no-repeat;
@@ -43,4 +44,24 @@ a img {
     top: 10px; /* Ajuste conforme necessário para mover para o canto superior */
     right: 20px; /* Ajuste conforme necessário para mover para o canto direito */
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Isso permite que os itens se ajustem conforme necessário */
+    gap: 10px; /* Isso cria um espaço entre os itens */
+    justify-content: right;
+}
+
+.item {
+    position: relative; /* Posição relativa para os itens individuais */
+    width: 50px; /* Largura do item para corresponder à largura da imagem */
+    height: 50px; /* Altura do item para corresponder à altura da imagem */
+}
+
+.item img {
+    border-radius: 50%;
+    width: 100%; /* Isso faz com que a imagem preencha o item */
+    height: auto; /* Isso mantém a proporção da imagem */
+}
+
 
