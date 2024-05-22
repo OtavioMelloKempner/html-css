@@ -24,11 +24,17 @@ main{
     align-items: center;
     
 }
+section{
+    width: 100%;
+
+}
 section#celular{
     position: relative;
     background: url('../imagens/frame-iphone1.png') no-repeat;
-    width: 627px;
     height: 311px;
+    width: 627px;
+
+    max-width: 100%;
     
 }
 
@@ -60,4 +66,4 @@ header > div > a, img{
     border-radius: 50%;
     
 }
- 
+
