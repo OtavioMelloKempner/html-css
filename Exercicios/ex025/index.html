@@ -43,10 +43,12 @@
 <body>
     <main>
         <section>
-            <p>Nome: <input type="text" name="nome" id="nome"></p> <br>
-            <p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p><br>
-            <p>Senha: <input type="password" name="senha" id="senha"></p><br>
-            <p><input type="submit" value="Enviar"></p><br>
+            <form action="cadastro.php" autocomplete="off">
+                <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p> <br>
+                <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p><br>
+                <p><label for="isenha">Senha:</label> <input type="password" name="senha" id="isenha"></p><br>
+                <p><input type="submit" value="Enviar"></p><br>
+            </form>
         </section>
     </main>
 </body>
